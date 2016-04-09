@@ -8,10 +8,10 @@
         "name": "Daniel Keller",
         "email": "jobe451@gmail.org",
         "website": "",
-        "contributors": [
-        name": "Adrian Forschner",
-        "email": "aforschner@icloud.com",
-        "website": "",
+        "contributors": [{
+            	"name": "Jane Doe",
+				"email": "jane.doe@customdev.com"
+        }
         ]
     },
     "settings": [{
