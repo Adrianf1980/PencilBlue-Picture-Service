@@ -1,0 +1,61 @@
+{
+    "uid": "PencilBlue-Picture-Service",
+    "name": "PencilBlue Picture Service",
+    "description": "Service for providing PencilBlue Media-Picture files in a resized from using a caching mechanism. For instance for providing fast loading thumbnails.",
+    "version": "0.1.0",
+    "pb_version": "0.5.x",
+    "author": {
+        "name": "Daniel Keller",
+        "email": "jobe451@gmail.org",
+        "website": "",
+        "contributors": [
+        name": "Adrian Forschner",
+        "email": "aforschner@icloud.com",
+        "website": "",
+        ]
+    },
+    "settings": [{
+        "name": "Picture_Service_Cache_Path",
+        "value": ""
+    },{
+        "name": "Do_Cache",
+        "value": "true"
+    },{
+        "name": "Gallery_Enabled",
+        "value": "true"
+    },{
+        "name": "Picture_Service_Route_Enabled",
+        "value": "true"
+    },{
+        "name": "Max_Width",
+        "value": ""
+    },{
+        "name": "Max_Height",
+        "value": ""
+    },{
+        "name": "Quality_Regular",
+        "value": ""
+    },{
+        "name": "Quality_Thumbnail",
+        "value": ""
+    },{
+        "name": "Valid_Width_List",
+        "value": "64, 128, 480, 960"
+    },{
+        "name": "Valid_Hight_List",
+        "value": "64, 128 "
+    }],
+    "permissions": {
+        "ACCESS_USER": [],
+        "ACCESS_WRITER": [],
+        "ACCESS_EDITOR": [],
+        "ACCESS_MANAGING_EDITOR": []
+    },
+    "main_module": {
+        "path": "pictureService.js"
+    },
+    "theme": {
+        "settings": [],
+        "content_templates": []
+    }
+}
